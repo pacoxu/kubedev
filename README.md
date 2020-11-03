@@ -67,5 +67,5 @@ EOF
 ```
 Then build `kube-apiserver`, `kube-scheduler`, `kube-proxy`images: 
 ```shell
-kubedev images
+kubedev image
 ```
