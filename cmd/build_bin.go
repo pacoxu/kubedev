@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var supportBinaryName []string = []string{"kubelet", "kubectl"}
+var supportBinaryName []string = []string{"kubelet", "kubectl", "kubeadm"}
 
 var binCmd = &cobra.Command{
 	Use:   "bin",
